@@ -56,7 +56,7 @@ function App() {
             </p>
             <p>
               <a
-                href="//yh2n.github.io/ny_coin_white_paper/"
+                href="https://withered-glitter-35.linkyhost.site"
                 target="_blank"
                 style={{ color: "white" }}
               >
