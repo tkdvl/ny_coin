@@ -11,6 +11,7 @@
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
+  padding: 7px;
 }
 
 .coin_intro {
@@ -31,6 +32,8 @@
   color: transparent;
   background-clip: text;
   filter: brightness(1.7);
+  width: 100%;
+  max-width: 724px;
   /* border: solid red; */
 }
 .coin_name {
@@ -206,4 +209,32 @@
 }
 .social_media i {
   margin: 0 15px;
+}
+
+@media all and (max-width: 796px) {
+  .coin_intro {
+    font-size: 70px;
+  }
+}
+@media all and (max-width: 400px) {
+  .wrapper {
+    margin: 0;
+    /* padding: 7px; */
+  }
+  .coin_intro {
+    font-size: 40px;
+  }
+  .opening_statement {
+    font-size: 80px;
+    margin: 20px 0 180px;
+    text-align: center;
+    font-size: 18px;
+    /* border: solid red; */
+  }
+  .disclaimer {
+    font-size: 15px;
+  }
+  .ceoca_statement {
+    font-size: 22px;
+  }
 }
