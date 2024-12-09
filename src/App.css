@@ -20,7 +20,7 @@
   align-items: center;
   /* margin: 40px 0; */
   font-size: 90px;
-  margin: 80px 0;
+  margin: 80px 0 30px 0;
   font-family: "Jaro", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -34,13 +34,14 @@
 
 .opening_statement {
   font-size: 20px;
-  margin: 20px 0 80px;
+  margin: 20px 0 150px;
   text-align: center;
   /* border: solid red; */
 }
 
 .disclaimer {
   font-weight: bold 700;
+  margin-bottom: 20px;
 }
 
 .img_statement_container {

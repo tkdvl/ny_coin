@@ -16,9 +16,9 @@ function App() {
         </div>
         <div className="opening_statement">
           <div className="">CREATING A COMMUNITY TO SUPPORT THE UNINSURED</div>
-          <div className="disclaimer" style={{ fontWeight: "bold" }}>
-            * WE DO NOT PROMOTE OR CONDONE THE USE OF VIOLENCE
-          </div>
+        </div>
+        <div className="disclaimer" style={{ fontWeight: "bold" }}>
+          * WE DO NOT PROMOTE OR CONDONE THE USE OF VIOLENCE
         </div>
         <div className="opening_img">
           <img src={Shooter} alt="hoodie" />
