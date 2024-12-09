@@ -1,0 +1,188 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 95vw;
+  /* min-height: 80vh; */
+  margin: 30px;
+  border: solid #004280;
+  border-radius: 15px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.coin_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 40px 0; */
+  font-size: 90px;
+  margin: 80px 0;
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* border: solid red; */
+}
+.coin_name {
+}
+.acronym {
+}
+
+.opening_statement {
+  font-size: 20px;
+  margin: 20px 0 80px;
+  text-align: center;
+  /* border: solid red; */
+}
+
+.disclaimer {
+  font-weight: bold 700;
+}
+
+.img_statement_container {
+  width: 991px;
+  /* height: 561px; */
+}
+.opening_img {
+  width: 100%;
+  max-width: 991px;
+  margin-bottom: 200px;
+  /* border: solid; */
+}
+
+.opening_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* 
+.mission_statement_outer {
+  border: solid 0.5px #004280;
+  border-radius: 10px;
+  padding: 5px;
+  } */
+.mission_statement {
+  margin: 60px 0;
+  border-radius: 10px;
+  /* width: 100%; */
+  text-align: center;
+  padding: 20px;
+  border: solid 0.5px#004280;
+  filter: brightness(1.5);
+  line-height: 1.7;
+}
+.launch_plan_title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.launch_plan_img {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 200px;
+  /* border: solid; */
+}
+
+.launch_plan_img img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  /* height: 100%; */
+}
+
+.launch_plan_details {
+  border: solid 0.5px#004280;
+  padding: 20px 20px 60px 20px;
+  border-radius: 10px;
+}
+
+.roadmap {
+  margin-bottom: 200px;
+  border: solid 0.5px#004280;
+  border-radius: 10px;
+  padding: 20px 20px 60px 20px;
+}
+.roadmap li {
+  padding: 10px;
+  margin: 10px;
+}
+.roadmap_title {
+  font-size: 40px;
+  text-align: center;
+}
+.tokenomics {
+  text-align: center;
+  margin-bottom: 80px;
+  /* border: solid; */
+}
+
+.tokenomics_details {
+  padding: 10px 10px 40px 10px;
+  border: solid 0.5px#004280;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.token_title {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tokenomics_img {
+  width: 100%;
+  max-width: 1400px;
+  margin-bottom: 100px;
+  /* border: solid blue; */
+}
+
+.tokenomics_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.closing_img {
+  width: 100%;
+  max-width: 1040px;
+  margin: 30px 0 60px 0;
+}
+
+.closing_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.closing_statement {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
+}
+
+.ceoca_statement {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.social_media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 30px;
+  margin: 10px 20px 20px;
+  border: solid 0.5px#004280;
+  border-radius: 10px;
+}
+
+.social_media div {
+  padding: 5px;
+}
+.social_media i {
+  margin: 0 15px;
+}
