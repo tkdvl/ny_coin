@@ -115,8 +115,8 @@
   background-color: #004280;
 }
 
-.white_paper_link:hover {
-  filter: brightness(1.8);
+.white_paper_link {
+  color: white;
 }
 
 .roadmap {
