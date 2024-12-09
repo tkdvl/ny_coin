@@ -115,6 +115,10 @@
   background-color: #004280;
 }
 
+.white_paper_link:hover {
+  filter: brightness(1.8);
+}
+
 .roadmap {
   margin-bottom: 200px;
   border: solid 0.5px#004280;
