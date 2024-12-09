@@ -55,7 +55,11 @@ function App() {
               and share progress with the community.
             </p>
             <p>
-              <a href="" style={{ color: "white" }}>
+              <a
+                href="//yh2n.github.io/ny_coin_white_paper/"
+                target="_blank"
+                style={{ color: "white" }}
+              >
                 Read the White Paper
               </a>
             </p>

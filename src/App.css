@@ -72,8 +72,9 @@
   text-align: center;
   padding: 20px;
   border: solid 0.5px#004280;
-  filter: brightness(1.5);
+  /* filter: brightness(1.5); */
   line-height: 1.7;
+  background-color: #004280;
 }
 .launch_plan_title {
   font-size: 40px;
@@ -98,6 +99,7 @@
   border: solid 0.5px#004280;
   padding: 20px 20px 60px 20px;
   border-radius: 20px;
+  background-color: #004280;
 }
 
 .roadmap {
@@ -105,6 +107,7 @@
   border: solid 0.5px#004280;
   border-radius: 20px;
   padding: 20px 20px 60px 20px;
+  background-color: #004280;
 }
 .roadmap li {
   padding: 10px;
@@ -123,6 +126,7 @@
 .tokenomics_details {
   padding: 10px 10px 40px 10px;
   border: solid 0.5px#004280;
+  background-color: #004280;
   border-radius: 20px;
   margin-bottom: 100px;
 }
