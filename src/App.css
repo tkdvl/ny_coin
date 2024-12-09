@@ -21,10 +21,16 @@
   /* margin: 40px 0; */
   font-size: 90px;
   margin: 80px 0 30px 0;
-  font-family: "Jaro", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  /* background-image: linear-gradient(90deg, #004280 0%, #fc00ff 100%); */
+
+  background-image: linear-gradient(90deg, rgb(96, 0, 128), #004280);
+  color: transparent;
+  background-clip: text;
+  filter: brightness(1.7);
   /* border: solid red; */
 }
 .coin_name {
@@ -33,8 +39,8 @@
 }
 
 .opening_statement {
-  font-size: 20px;
-  margin: 20px 0 150px;
+  font-size: 25px;
+  margin: 20px 0 450px;
   text-align: center;
   /* border: solid red; */
 }
@@ -77,11 +83,15 @@
   background-color: #004280;
 }
 .launch_plan_title {
+  background-image: linear-gradient(90deg, rgb(96, 0, 128), white);
+  color: transparent;
+  background-clip: text;
   font-size: 40px;
   text-align: center;
 }
 
 .launch_plan_img {
+  /* display: flex; */
   width: 100%;
   max-width: 600px;
   margin-bottom: 200px;
@@ -116,6 +126,9 @@
 .roadmap_title {
   font-size: 40px;
   text-align: center;
+  background-image: linear-gradient(90deg, white, rgb(96, 0, 128));
+  color: transparent;
+  background-clip: text;
 }
 .tokenomics {
   text-align: center;
@@ -135,6 +148,9 @@
   margin-top: 40px;
   font-size: 40px;
   font-weight: bold;
+  background-image: linear-gradient(60deg, rgb(96, 0, 128), white);
+  color: transparent;
+  background-clip: text;
 }
 
 .tokenomics_img {
