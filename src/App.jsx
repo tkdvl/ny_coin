@@ -112,10 +112,18 @@ function App() {
         Follow us!
         <div className="social_media">
           <div className="">
-            <i className="fa-brands fa-x-twitter" />
+            <a href="https://x.com/" target="_blank" style={{ color: "white" }}>
+              <i className="fa-brands fa-x-twitter" />
+            </a>
           </div>
           <div className="">
-            <i className="fa-brands fa-telegram"></i>
+            <a
+              href="https://t.me/+hEoPKu3uNP81Zjcx"
+              target="_blank"
+              style={{ color: "white" }}
+            >
+              <i className="fa-brands fa-telegram"></i>
+            </a>
           </div>
         </div>
       </div>
