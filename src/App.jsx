@@ -57,11 +57,11 @@ function App() {
             <p>
               <a
                 className="white_paper_link"
-                href="https://withered-glitter-35.linkyhost.site"
+                href="https://dawn-shadow-88.linkyhost.site"
                 target="_blank"
-                style={{
-                  color: "white",
-                }}
+                // style={{
+                //   color: "white",
+                // }}
               >
                 Read the White Paper
               </a>
