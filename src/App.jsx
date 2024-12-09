@@ -54,14 +54,11 @@ function App() {
               4 - Charity Impact: Use transaction fees to forgive medical debt
               and share progress with the community.
             </p>
-            <p>
+            <p className="white_paper_p">
               <a
                 className="white_paper_link"
                 href="https://dawn-shadow-88.linkyhost.site"
                 target="_blank"
-                // style={{
-                //   color: "white",
-                // }}
               >
                 Read the White Paper
               </a>
