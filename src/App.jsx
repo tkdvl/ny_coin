@@ -28,7 +28,7 @@ function App() {
               blockchain. Our mission is to create a community, solve a huge
               problem and make a meaningful social impact. Unique Feature: 3%
               transaction fee funds a Charity Wallet to buy and forgive hospital
-              debt for pennies on the dollar. By purchasing CEOASssassincoin you
+              debt for pennies on the dollar. By purchasing CEOAssassincoin you
               become a CEOAssassin team, helping those in medical distress, as
               medical debt in many places is a leading cause of financial
               hardship.
