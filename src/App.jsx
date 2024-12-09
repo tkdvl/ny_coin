@@ -55,7 +55,9 @@ function App() {
               and share progress with the community.
             </p>
             <p>
-              <a href="">Read the White Paper</a>
+              <a href="" style={{ color: "white" }}>
+                Read the White Paper
+              </a>
             </p>
           </div>
         </div>

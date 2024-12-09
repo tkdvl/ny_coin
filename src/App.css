@@ -56,17 +56,17 @@
 
 .opening_img img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 /* 
 .mission_statement_outer {
   border: solid 0.5px #004280;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 5px;
   } */
 .mission_statement {
   margin: 60px 0;
-  border-radius: 10px;
+  border-radius: 20px;
   /* width: 100%; */
   text-align: center;
   padding: 20px;
@@ -88,7 +88,7 @@
 
 .launch_plan_img img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 50px;
   /* height: 100%; */
 }
@@ -96,13 +96,13 @@
 .launch_plan_details {
   border: solid 0.5px#004280;
   padding: 20px 20px 60px 20px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .roadmap {
   margin-bottom: 200px;
   border: solid 0.5px#004280;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 20px 20px 60px 20px;
 }
 .roadmap li {
@@ -122,7 +122,7 @@
 .tokenomics_details {
   padding: 10px 10px 40px 10px;
   border: solid 0.5px#004280;
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 100px;
 }
 
@@ -142,7 +142,7 @@
 .tokenomics_img img {
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .closing_img {
@@ -153,7 +153,7 @@
 
 .closing_img img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .closing_statement {
@@ -177,7 +177,7 @@
   font-size: 30px;
   margin: 10px 20px 20px;
   border: solid 0.5px#004280;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .social_media div {
