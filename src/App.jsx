@@ -1,5 +1,4 @@
 import "./App.css"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import Shooter from "./assets/shooter.png"
 import Hoodie from "./assets/hoodie.png"

@@ -120,6 +120,8 @@
 }
 .white_paper_link {
   color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid;
 }
 
 .roadmap {
@@ -207,7 +209,8 @@
   height: 100%;
   font-size: 30px;
   margin: 10px 20px 20px;
-  border: solid 0.5px#004280;
+  border: solid linear-gradient(90deg, red, blue);
+  /* border: solid 0.5px#004280; */
   border-radius: 20px;
 }
 
