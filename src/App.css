@@ -358,19 +358,32 @@
     box-shadow: 0 4px;
     padding: 5px;
     font-size: 11px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 
-  .fa-copy {
+  .fa-copy,
+  .fa-check {
     margin-left: 8px;
   }
 
   .opening_statement {
     font-size: 80px;
-    margin: 20px 0 180px;
+    margin: 20px 0 100px;
     text-align: center;
     font-size: 18px;
     /* border: solid red; */
+  }
+
+  .opening_img {
+    margin-bottom: 10px;
+  }
+
+  .launch_plan_img {
+    margin-bottom: 30px;
+  }
+
+  .roadmap {
+    margin-bottom: 40px;
   }
   .disclaimer {
     font-size: 15px;
@@ -381,6 +394,10 @@
   .social_media {
     font-size: 20px;
   }
+  /* .tokenomics_details {
+    border: solid red;
+    margin-top: 10px;
+  } */
 }
 
 @media all and (max-width: 640px) {
