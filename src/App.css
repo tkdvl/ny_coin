@@ -387,9 +387,18 @@
   .launch_plan_img {
     margin-bottom: 30px;
   }
-
+  .burger_img_container {
+    /* width: 100%; */
+    width: 300px;
+    margin-bottom: 20px;
+  }
   .roadmap {
     margin-bottom: 40px;
+  }
+
+  .tokenomics_img {
+    margin-bottom: 30px;
+    /* border: solid blue; */
   }
   .disclaimer {
     font-size: 15px;
