@@ -86,7 +86,7 @@ function App() {
         </div>
         <div className="opening_statement">
           <div className="">
-            3% OF PROFITS DONATED TO CHARITY TO BUY HOSPITAL DEBT
+            3% OF PROFITS DONATED TO CHARITY TO BUY MEDICAL DEBT
           </div>
         </div>
         <div className="disclaimer" style={{ fontWeight: "bold" }}>
