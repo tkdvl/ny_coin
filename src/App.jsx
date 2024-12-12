@@ -65,8 +65,8 @@ function App() {
             <p className="acronym">$CEOA</p>
           </div>
         </div>
-        <div className="solana_address">
-          <div onClick={copyAddress}>
+        <div className="solana_address_wrapper">
+          <div className="solana_address" onClick={copyAddress}>
             EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EYp
           </div>
           <div onClick={copyAddress}>

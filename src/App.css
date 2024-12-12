@@ -61,7 +61,7 @@
   color: none;
 }
 
-.solana_address {
+.solana_address_wrapper {
   display: flex;
   border: solid;
   border-radius: 10px;
@@ -71,6 +71,9 @@
   margin-bottom: 120px;
 }
 
+.solana_address:hover {
+  cursor: pointer;
+}
 .fa-copy,
 .fa-check {
   margin-left: 25px;
