@@ -66,7 +66,9 @@ function App() {
           </div>
         </div>
         <div className="solana_address">
-          <div>EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EYp</div>
+          <div onClick={copyAddress}>
+            EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EYp
+          </div>
           <div onClick={copyAddress}>
             <i
               className={`${
@@ -105,9 +107,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="launch_plan_img_container">
+        <div className="luigi_img_container">
           <img src={Luigi_Arrested} alt="hoodie" />
-          <img src={BurgerKing} alt="hamburglar" />
         </div>
         <div className="launch_plan_img">
           <div className="launch_plan_details">
@@ -137,6 +138,9 @@ function App() {
               </a>
             </p>
           </div>
+        </div>
+        <div className="burger_img_container">
+          <img src={BurgerKing} alt="hamburglar" />
         </div>
         <ul className="roadmap">
           <p className="roadmap_title">Roadmap</p>
