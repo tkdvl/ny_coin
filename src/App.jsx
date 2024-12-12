@@ -10,22 +10,40 @@ function App() {
   return (
     <>
       <div className="wrapper">
-        <div className="social_media">
-          <div className="">
+        <nav className="navbar">
+          <div className="nav_white_paper mock">
+            <a
+              className="white_paper_link"
+              href="https://dawn-shadow-88.linkyhost.site"
+              target="_blank"
+            >
+              White Paper
+            </a>
+          </div>
+          <div className="social_media">
             <a href="https://x.com/" target="_blank" style={{ color: "white" }}>
               <i className="fa-brands fa-x-twitter" />
             </a>
+            <div className="">
+              <a
+                href="https://t.me/+hEoPKu3uNP81Zjcx"
+                target="_blank"
+                style={{ color: "white" }}
+              >
+                <i className="fa-brands fa-telegram"></i>
+              </a>
+            </div>
           </div>
-          <div className="">
+          <div className="nav_white_paper">
             <a
-              href="https://t.me/+hEoPKu3uNP81Zjcx"
+              className="white_paper_link"
+              href="https://dawn-shadow-88.linkyhost.site"
               target="_blank"
-              style={{ color: "white" }}
             >
-              <i className="fa-brands fa-telegram"></i>
+              White Paper
             </a>
           </div>
-        </div>
+        </nav>
         <div className="coin_intro">
           <div className="coin_name">CEOAssassincoin</div>
           <div className="acronym_wrapper">
