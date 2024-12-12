@@ -82,12 +82,22 @@
   margin-bottom: 120px;
 }
 
-.fa-copy {
+.fa-copy,
+.fa-check {
   margin-left: 25px;
 }
-
+.fa-check {
+  /* color: rgba(187, 0, 255, 0.762); */
+  filter: brightness(1.8);
+}
 .fa-copy:hover {
   cursor: pointer;
+}
+
+.fa-copy.hidden,
+.fa-check.hidden {
+  /* visibility: hidden; */
+  display: none;
 }
 @keyframes color-change {
   from {
@@ -109,7 +119,7 @@
 }
 
 .opening_statement {
-  font-size: 35px;
+  font-size: 38px;
   margin: 20px 0 450px;
   text-align: center;
   /* border: solid rgb(234, 0, 255); */
@@ -334,10 +344,12 @@
 @media all and (max-width: 400px) {
   .wrapper {
     margin: 0;
-    /* padding: 7px; */
   }
   .coin_intro {
     font-size: 40px;
+  }
+  .nav_white_paper {
+    font-size: 12px;
   }
   .solana_address {
     display: flex;
@@ -348,9 +360,11 @@
     font-size: 11px;
     margin-bottom: 120px;
   }
+
   .fa-copy {
     margin-left: 8px;
   }
+
   .opening_statement {
     font-size: 80px;
     margin: 20px 0 180px;

@@ -1,5 +1,5 @@
 import "./App.css"
-// import { useState } from "react"
+import { useState } from "react"
 
 import Shooter from "./assets/shooter.png"
 import Luigi_Arrested from "./assets/luigi_mangione_arrested.png"
@@ -8,10 +8,19 @@ import Map from "./assets/map_blob.png"
 import BikeRide from "./assets/bikeride.png"
 
 function App() {
+  const [copyIconVisible, setCopyIconVisible] = useState(true)
+  const [thumbsUpVisible, setThumbsUpVisible] = useState(false)
+
   const copyAddress = () => {
     navigator.clipboard.writeText(
       "EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EY"
     )
+    setThumbsUpVisible(true)
+    setCopyIconVisible(false)
+    setTimeout(() => {
+      setThumbsUpVisible(false)
+      setCopyIconVisible(true)
+    }, 1200)
   }
   return (
     <>
@@ -59,11 +68,24 @@ function App() {
         <div className="solana_address">
           <div>EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EYp</div>
           <div onClick={copyAddress}>
-            <i className="fa-solid fa-copy"></i>
+            <i
+              className={`${
+                copyIconVisible ? "fa-solid fa-copy" : "fa-solid fa-copy hidden"
+              }`}
+            ></i>
+            <i
+              className={`${
+                thumbsUpVisible
+                  ? "fa-solid fa-check"
+                  : "fa-solid fa-check hidden"
+              }`}
+            ></i>
           </div>
         </div>
         <div className="opening_statement">
-          <div className="">CREATING A COMMUNITY TO SUPPORT THE UNINSURED</div>
+          <div className="">
+            3% OF PROFITS DONATED TO CHARITY TO BUY HOSPITAL DEBT
+          </div>
         </div>
         <div className="disclaimer" style={{ fontWeight: "bold" }}>
           * WE DO NOT PROMOTE OR CONDONE THE USE OF VIOLENCE
