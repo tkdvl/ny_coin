@@ -72,6 +72,23 @@
   color: none;
 }
 
+.solana_address {
+  display: flex;
+  border: solid;
+  border-radius: 10px;
+  box-shadow: 0 10px;
+  padding: 15px 20px;
+  font-size: 25px;
+  margin-bottom: 120px;
+}
+
+.fa-copy {
+  margin-left: 25px;
+}
+
+.fa-copy:hover {
+  cursor: pointer;
+}
 @keyframes color-change {
   from {
     color: rgb(241, 154, 78);
@@ -92,7 +109,7 @@
 }
 
 .opening_statement {
-  font-size: 25px;
+  font-size: 35px;
   margin: 20px 0 450px;
   text-align: center;
   /* border: solid rgb(234, 0, 255); */
@@ -321,6 +338,18 @@
   }
   .coin_intro {
     font-size: 40px;
+  }
+  .solana_address {
+    display: flex;
+    border: 0.5px solid;
+    border-radius: 7px;
+    box-shadow: 0 4px;
+    padding: 7px 10px;
+    font-size: 10px;
+    margin-bottom: 120px;
+  }
+  .fa-copy {
+    margin-left: 8px;
   }
   .opening_statement {
     font-size: 80px;

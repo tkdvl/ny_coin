@@ -1,4 +1,5 @@
 import "./App.css"
+// import { useState } from "react"
 
 import Shooter from "./assets/shooter.png"
 import Luigi_Arrested from "./assets/luigi_mangione_arrested.png"
@@ -7,6 +8,11 @@ import Map from "./assets/map_blob.png"
 import BikeRide from "./assets/bikeride.png"
 
 function App() {
+  const copyAddress = () => {
+    navigator.clipboard.writeText(
+      "EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EY"
+    )
+  }
   return (
     <>
       <div className="wrapper">
@@ -48,6 +54,12 @@ function App() {
           <div className="coin_name">CEOAssassincoin</div>
           <div className="acronym_wrapper">
             <p className="acronym">$CEOA</p>
+          </div>
+        </div>
+        <div className="solana_address">
+          <div>EWmVeZoK8FkqgftHPZjHnA9A1DESwBHDNVfQ6P5cV4EYp</div>
+          <div onClick={copyAddress}>
+            <i className="fa-solid fa-copy"></i>
           </div>
         </div>
         <div className="opening_statement">
