@@ -1,17 +1,35 @@
 import "./App.css"
 
 import Shooter from "./assets/shooter.png"
-import Hoodie from "./assets/hoodie.png"
-import NYC_map from "./assets/nyc_map.png"
+import Luigi_Arrested from "./assets/luigi_mangione_arrested.png"
+import Map from "./assets/map_blob.png"
 import BikeRide from "./assets/bikeride.png"
 
 function App() {
   return (
     <>
       <div className="wrapper">
+        <div className="social_media">
+          <div className="">
+            <a href="https://x.com/" target="_blank" style={{ color: "white" }}>
+              <i className="fa-brands fa-x-twitter" />
+            </a>
+          </div>
+          <div className="">
+            <a
+              href="https://t.me/+hEoPKu3uNP81Zjcx"
+              target="_blank"
+              style={{ color: "white" }}
+            >
+              <i className="fa-brands fa-telegram"></i>
+            </a>
+          </div>
+        </div>
         <div className="coin_intro">
           <div className="coin_name">CEOAssassincoin</div>
-          <div className="acronym">(CEOA)</div>
+          <div className="acronym_wrapper">
+            <p className="acronym">$CEOA</p>
+          </div>
         </div>
         <div className="opening_statement">
           <div className="">CREATING A COMMUNITY TO SUPPORT THE UNINSURED</div>
@@ -35,7 +53,7 @@ function App() {
           </div>
         </div>
         <div className="launch_plan_img">
-          <img src={Hoodie} alt="hoodie" />
+          <img src={Luigi_Arrested} alt="hoodie" />
           <div className="launch_plan_details">
             <p className="launch_plan_title">Launch Plan</p>
             <p className="">
@@ -81,7 +99,7 @@ function App() {
         </ul>
         <div className="tokenomics">
           <div className="tokenomics_img">
-            <img src={NYC_map} alt="" />
+            <img src={Map} alt="" />
           </div>
           <div className="tokenomics_details">
             <p className="token_title">TOKENOMICS</p>
