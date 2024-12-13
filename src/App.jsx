@@ -2,7 +2,8 @@ import "./App.css"
 import { useState } from "react"
 
 import Shooter from "./assets/shooter.png"
-import Luigi_Arrested from "./assets/luigi_mangione_arrested.png"
+import Luigi_Messiah from "./assets/luigi_messiah.jpg"
+
 import BurgerKing from "./assets/burger_king.jpg"
 import Map from "./assets/map_blob.png"
 import BikeRide from "./assets/bikeride.png"
@@ -108,7 +109,7 @@ function App() {
           </div>
         </div>
         <div className="luigi_img_container">
-          <img src={Luigi_Arrested} alt="hoodie" />
+          <img src={Luigi_Messiah} alt="hoodie" />
         </div>
         <div className="launch_plan_img">
           <div className="launch_plan_details">

@@ -53,12 +53,11 @@
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
-  animation-name: color-change;
   animation-name: heartbeat;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  color: none;
+  /* color: coral; */
 }
 
 .solana_address_wrapper {
