@@ -67,11 +67,15 @@
   box-shadow: 0 10px;
   padding: 15px 20px;
   font-size: 25px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .solana_address:hover {
   cursor: pointer;
+}
+
+.solana_prompt {
+  margin-bottom: 120px;
 }
 .fa-copy,
 .fa-check {
@@ -325,14 +329,18 @@
   .nav_white_paper {
     font-size: 12px;
   }
-  .solana_address {
+  .solana_prompt {
+    font-size: 11px;
+    margin-bottom: 70px;
+  }
+  .solana_address_wrapper {
     display: flex;
     border: 0.5px solid;
     border-radius: 7px;
     box-shadow: 0 4px;
     padding: 5px;
     font-size: 11px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
 
   .fa-copy,
@@ -366,7 +374,7 @@
     margin-bottom: 30px;
   }
   .disclaimer {
-    font-size: 15px;
+    font-size: 10px;
   }
   .ceoca_statement {
     font-size: 22px;

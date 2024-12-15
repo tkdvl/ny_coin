@@ -85,10 +85,9 @@ function App() {
             ></i>
           </div>
         </div>
+        <div className="solana_prompt">* Solana Wallet Address</div>
         <div className="opening_statement">
-          <div className="">
-            3% OF PROFITS DONATED TO CHARITY TO BUY MEDICAL DEBT
-          </div>
+          3% OF PROFITS DONATED TO CHARITY TO BUY MEDICAL DEBT
         </div>
         <div className="disclaimer" style={{ fontWeight: "bold" }}>
           * WE DO NOT PROMOTE OR CONDONE THE USE OF VIOLENCE
