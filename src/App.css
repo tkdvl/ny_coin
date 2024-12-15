@@ -7,7 +7,7 @@
   margin: 30px;
   border: solid #004280;
   border-radius: 15px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Titan One", serif;
   font-weight: 400;
   font-style: normal;
   padding: 7px;
@@ -29,9 +29,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 90px;
+  font-size: 80px;
   margin: 80px 0 30px 0;
-  font-family: "Mulish", sans-serif;
+  font-family: "Titan One", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
