@@ -11,6 +11,7 @@ import BikeRide from "./assets/bikeride.png"
 function App() {
   const [copyIconVisible, setCopyIconVisible] = useState(true)
   const [thumbsUpVisible, setThumbsUpVisible] = useState(false)
+  const [clicked, setClicked] = useState(false)
 
   const copyAddress = () => {
     navigator.clipboard.writeText(
@@ -22,6 +23,14 @@ function App() {
       setThumbsUpVisible(false)
       setCopyIconVisible(true)
     }, 1200)
+  }
+
+  const clickedButtonEffect = () => {
+    setClicked(true)
+  }
+
+  const releasedButtonEffect = () => {
+    setClicked(false)
   }
   return (
     <>
@@ -36,14 +45,26 @@ function App() {
               White Paper
             </a>
           </div>
-          <div className="social_media">
-            <a href="https://x.com/" target="_blank" style={{ color: "white" }}>
+          <div
+            className={`${
+              clicked ? "social_media clicked" : "social_media released"
+            }`}
+            onMouseEnter={clickedButtonEffect}
+            onMouseLeave={releasedButtonEffect}
+          >
+            <a
+              href="https://x.com/"
+              target="_blank"
+              title="twitter/X"
+              style={{ color: "white" }}
+            >
               <i className="fa-brands fa-x-twitter" />
             </a>
             <div className="">
               <a
                 href="https://t.me/+hEoPKu3uNP81Zjcx"
                 target="_blank"
+                title="telegram"
                 style={{ color: "white" }}
               >
                 <i className="fa-brands fa-telegram"></i>
@@ -187,7 +208,13 @@ function App() {
           </div>
         </div>
         Follow us!
-        <div className="social_media">
+        <div
+          className={`${
+            clicked ? "social_media clicked" : "social_media released"
+          }`}
+          onMouseEnter={clickedButtonEffect}
+          onMouseLeave={releasedButtonEffect}
+        >
           <div className="">
             <a
               href="https://x.com/ceoassassincoin"

@@ -6,6 +6,7 @@
   width: 95vw;
   margin: 30px;
   border: solid #004280;
+  /* box-shadow: 2px 2px 20px #87b6e3, 5px 5px 5px #87b6e3, 5px 5px 5px #87b6e3; */
   border-radius: 15px;
   font-family: "Titan One", serif;
   font-weight: 400;
@@ -18,10 +19,16 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  /* border: solid; */
 }
 
 .mock {
   visibility: hidden;
+}
+
+.nav_white_paper {
+  margin-right: 10px;
+  /* border: solid; */
 }
 
 .coin_intro {
@@ -50,13 +57,15 @@
   height: 200px;
 }
 .acronym {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Dirt", system-ui;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 900;
   font-style: normal;
   animation-name: heartbeat;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  text-shadow: 10px whitesmoke;
   /* color: coral; */
 }
 
@@ -112,7 +121,7 @@
 }
 
 .opening_statement {
-  font-size: 38px;
+  font-size: 45px;
   margin: 20px 0 200px;
   text-align: center;
 }
@@ -143,7 +152,9 @@
   padding: 20px;
   border: solid rgb(140, 0, 255);
   line-height: 1.7;
+  font-family: "Libre Baskerville", sans-serif;
   background-image: linear-gradient(210deg, black, #083864);
+  box-shadow: 0 15px rgb(140, 0, 255);
 }
 .launch_plan_title {
   background-image: linear-gradient(90deg, rgb(96, 0, 128), white);
@@ -151,6 +162,7 @@
   background-clip: text;
   font-size: 40px;
   text-align: center;
+  font-family: "Titan One", serif;
 }
 
 .launch_plan_img {
@@ -170,10 +182,15 @@
   width: 100%;
   max-width: 600px;
   margin-bottom: 100px;
+  border-radius: 20px;
 }
 
+.luigi_img_container:hover {
+  filter: brightness(1.4);
+}
 .luigi_img_container img {
   width: 100%;
+  border-radius: 20px;
 }
 
 .burger_img_container {
@@ -184,12 +201,15 @@
 
 .burger_img_container img {
   width: 100%;
+  border-radius: 20px;
 }
 .launch_plan_details {
   border: solid rgb(140, 0, 255);
   padding: 20px 20px 60px 20px;
   border-radius: 20px;
   background-image: linear-gradient(110deg, black, #083864);
+  box-shadow: 0 15px rgb(140, 0, 255);
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 .white_paper_p {
@@ -223,12 +243,15 @@
   border-radius: 20px;
   padding: 20px 20px 60px 20px;
   background-image: linear-gradient(110deg, #083864, #0535627d);
+  box-shadow: 0 15px rgb(140, 0, 255);
+  font-family: "Libre Baskerville", sans-serif;
 }
 .roadmap li {
   padding: 10px;
   margin: 10px;
 }
 .roadmap_title {
+  font-family: "Titan One", serif;
   font-size: 40px;
   text-align: center;
   background-image: linear-gradient(90deg, white, rgb(96, 0, 128));
@@ -246,11 +269,14 @@
   background-image: linear-gradient(110deg, black, #083864);
   border-radius: 20px;
   margin-bottom: 100px;
+  box-shadow: 0 15px rgb(140, 0, 255);
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 .token_title {
   margin-top: 40px;
   font-size: 40px;
+  font-family: "Titan One", serif;
   font-weight: bold;
   background-image: linear-gradient(60deg, rgb(96, 0, 128), white);
   color: transparent;
@@ -300,9 +326,23 @@
   height: 100%;
   font-size: 30px;
   margin: 10px 20px 20px;
-  box-shadow: 0 2px;
+  border: solid white;
+  border-width: 0 7px;
   background-image: linear-gradient(90deg, rgb(96, 0, 128), #004280);
   border-radius: 20px;
+}
+
+.social_media {
+  border-width: 0 0 7px;
+}
+
+@keyframes pressed_button {
+  from {
+    border-width: 0 0 7px;
+  }
+  to {
+    border-width: 0;
+  }
 }
 
 .social_media div {
@@ -328,6 +368,7 @@
   }
   .nav_white_paper {
     font-size: 12px;
+    margin-right: 3px;
   }
   .solana_prompt {
     font-size: 11px;
