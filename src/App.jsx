@@ -3,7 +3,6 @@ import { useState } from "react"
 
 import Shooter from "./assets/shooter.png"
 import Luigi_Messiah from "./assets/luigi_messiah.jpg"
-
 import BurgerKing from "./assets/burger_king.jpg"
 import Map from "./assets/map_blob.png"
 import BikeRide from "./assets/bikeride.png"

@@ -185,9 +185,10 @@
   border-radius: 20px;
 }
 
-.luigi_img_container:hover {
+/* .luigi_img_container:hover {
   filter: brightness(1.4);
-}
+} */
+
 .luigi_img_container img {
   width: 100%;
   border-radius: 20px;
@@ -336,12 +337,17 @@
   border-width: 0 0 7px;
 }
 
+.social_media.clicked {
+  border-width: 0 0 4px;
+  animation: pressed_button;
+}
+
 @keyframes pressed_button {
   from {
     border-width: 0 0 7px;
   }
   to {
-    border-width: 0;
+    border-width: 0 0 4px;
   }
 }
 
