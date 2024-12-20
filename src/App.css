@@ -337,10 +337,10 @@
   border-width: 0 0 7px;
 }
 
-.social_media.clicked {
+/* .social_media.clicked {
   border-width: 0 0 4px;
   animation: pressed_button;
-}
+} */
 
 @keyframes pressed_button {
   from {
